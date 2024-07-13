@@ -22,5 +22,6 @@ dependencyResolutionManagement {
 rootProject.name = "eBreak"
 include(
     ":app",
-    ":library:designsystem"
+    ":library:designsystem",
+    ":features:countdown"
 )
