@@ -1,4 +1,4 @@
-package ir.sina.ebreak.ui.theme
+package ir.sina.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

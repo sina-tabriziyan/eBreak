@@ -1,4 +1,4 @@
-package ir.sina.ebreak.ui.theme
+package ir.sina.designsystem.theme
 
 import android.app.Activity
 import android.os.Build
