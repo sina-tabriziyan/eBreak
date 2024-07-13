@@ -20,5 +20,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "eBreak"
-include(":app")
- 
+include(
+    ":app",
+    ":library:designsystem"
+)
