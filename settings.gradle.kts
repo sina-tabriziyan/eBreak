@@ -23,5 +23,6 @@ rootProject.name = "eBreak"
 include(
     ":app",
     ":library:designsystem",
-    ":features:countdown"
+    ":features:countdown",
+    ":library:ext-function"
 )

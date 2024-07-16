@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "ir.sina.countdown"
+    namespace = "ir.sina.ext_function"
     compileSdk = 34
 
     defaultConfig {
@@ -30,16 +30,8 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
 }
 
 dependencies {
-
-    implementation(project(":library:designsystem"))
-    implementation(project(":library:ext-function"))
+    testImplementation(libs.junit)
 }
