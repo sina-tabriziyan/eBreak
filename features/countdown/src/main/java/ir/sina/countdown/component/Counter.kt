@@ -15,14 +15,14 @@ import ir.sina.ext_function.seconds
 fun Counter(
     countDownState: CountDownState,
 ) {
+    val minutes by remember {
+        mutableStateOf(countDownState.remainTime.minutes.toString())
+    }
 
     val seconds by remember {
         mutableStateOf(countDownState.remainTime.seconds.toString())
     }
 
-    val minutes by remember {
-        mutableStateOf(countDownState.remainTime.minutes.toString())
-    }
     Row {
         CounterText(minutes)
         CounterText(" : ")
